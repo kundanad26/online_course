@@ -9,7 +9,7 @@
 body
 {
     font-family: 'Montserrat', sans-serif;
-    background-color:rgb(204, 204, 221);
+    background-color:rgb(5, 5, 171);
     color: white;
 }
 .container
@@ -27,7 +27,7 @@ section h2
 }
 h1,h2,h3,h4,h5
 {
-    line-height: 3;
+    line-height: 1.3;
 }
 a
 {
@@ -63,7 +63,7 @@ nav
     height:75px;
     position: fixed;
     top:0;
-    z-index: 1;
+    z-index: 11;
 }
 .nav__container
 {
@@ -88,4 +88,100 @@ nav button
 .nav__menubar a:hover
 {
     color:brown;
+}
+header
+{
+    position: relative;
+    top: 5rem;
+    overflow:hidden;
+    height:70vh ;
+    margin-bottom:5rem ;
+}
+.header__container
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 5rem;
+    height: 100%;
+}
+.categories
+{
+    background: bg1;
+}
+.categories h1{
+    line-height: 1;
+    margin-bottom: 3rem;
+}
+.categories__container
+{
+    display: grid;
+    grid-template-columns:40% 60% ;
+    gap: 4rem;
+}
+.categories__left p{
+    margin: 1rem 0 3rem;
+}
+.categories__right{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 1.2rem;
+}
+.category{
+    background:#3dcaca ;
+    padding: 2rem;
+    border-radius: 2rem;
+    transition: all 300ms ease;
+}
+.category:hover{
+    box-shadow: 0 3rem 3rem blue;
+}
+.category__icon
+{
+    background:cornflowerblue ;
+    border-radius: 0.9rem;
+    padding: 0.5rem;
+    color: black;
+}
+.category h5{
+    margin: 2rem 0 1rem;
+}
+.category p{
+    font-size: 0.85rem;
+}
+.window-scroll
+{
+    background: palevioletred;   
+}
+.courses
+{
+    margin-top: 1rem ;
+}
+.courses__container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:2rem;
+   
+}
+.course{
+    background: blue;
+    text-align: center;
+    border: 1px solid transparent;
+    transition: all 300ms ease;
+}
+.course:hover{
+    background: transparent;
+    border-color: blue;
+}
+.course__img
+{
+  margin-top: 2rem;
+}
+.courses__info
+{
+    padding: 2rem;
+}
+.courses__info p{
+    margin: 1.2rem 0 2rem;
+    font-size: 0.92rem;
 }
