@@ -16,3 +16,18 @@ faqs.forEach(faq=>{
         }
     })
 })
+const menu=document.querySelector(".nav__menubar");
+const openBtn=document.querySelector("#open-menu");
+const closeBtn=document.querySelector("#close-menu");
+openBtn.addEventListener('click',()=>{
+    menu.style.display="flex";
+    closeBtn.style.display="inline-block";
+    openBtn.style.display="none";
+})
+const closeNav=()=>{
+    menu.style.display="none";
+    closeBtn.style.display="none";
+    openBtn.style.display="inline-block";
+}
+closeBtn.addEventListener('click',closeNav)
+ 
