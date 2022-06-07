@@ -1,0 +1,53 @@
+.nav{
+    background: transparent;
+    width: 100%; 
+    position: fixed;
+    top:0;
+    bottom: 15rem;
+    z-index: 11;
+    height: 100px;
+    margin-bottom: 5000px;
+}    
+.header-content{
+    flex:1;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0px;
+    margin-bottom: 55px;
+}
+.nav
+{
+    background-color:rgb(5, 5, 171);
+    height: 60px;
+
+}
+.links
+{
+    display: flex;
+    gap:35px;
+    padding-right: 150px;
+    font-weight:800;
+    font: 1em sans-serif;
+    font-family:'Montserrat', sans-serif; ;
+   
+}
+.menu{
+    display: flex;
+    top:13rem;
+    height:4rem;
+    align-items: center;
+    justify-content:space-between;
+    display: flex;
+    gap: 0px;
+    
+}
+.container
+{
+    background-color:rgb(5, 5, 171);
+    margin-top: 0px;
+}
+.ourteam
+{
+    line-height: 2rem;
+}

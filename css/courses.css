@@ -1,0 +1,130 @@
+    *{
+        padding:0;
+        margin:0; 
+        
+    } 
+    .header-title
+    {
+        color:black ;
+    }
+    #header{
+        background-color:rgb(5, 5, 171);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .nav{
+        background: transparent;
+        width: 100%; 
+        position: fixed;
+        top:0;
+        bottom: 15rem;
+        z-index: 11;
+        height: 100px;
+        margin-bottom: 5000px;
+    }    
+    .header-content{
+        flex:1;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding: 0px 50px;
+        margin-bottom: 55px;
+    }
+    /* .nav
+    {
+        background-color:rgba(30, 30, 173, 0.878);;
+    } */
+  
+    .menu{
+        display: flex;
+        top:13rem;
+        background-color:blue;
+        height:4rem;
+        align-items: center;
+        justify-content:space-between;
+        display: flex;
+        gap: 0px;
+        margin-bottom: 3rem;
+        
+    }
+    .container
+    {
+        background-color:rgba(30, 30, 173, 0.878);
+        margin-top: 0px;
+    }
+    .header-desc
+    {
+        background-color:rgb(186, 122, 122);
+      line-height: 1.4rem;
+    }
+    .btn-container
+    {
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+    .heading
+    {
+        display: flex;
+        flex-direction:column;
+     }
+    .course1
+    {
+        margin-left: 20px;
+        line-height: 20px;
+        color: black;
+    }
+    .heading
+    {
+       text-align: center;
+    }
+    .featured-course-title
+    {
+        margin-top: 15px;
+        margin-left: 50px;
+        margin-bottom: 5px;
+    }
+    .header-title{
+        color: white;
+    }
+    .buttn
+    {
+        margin-left: 50px;
+        height: 100%;
+    }
+    .container
+    {
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        align-items: center;
+        margin-top: 2px;
+    }
+    .course1{
+        margin-top: 45px;
+        background:#F2F1EF;
+        text-align: center;
+        border: 1px solid transparent;
+        transition: all 200ms ease;
+        margin-bottom: 20px;
+    }
+    .course1:hover{
+        background: transparent;
+        border-color: white;
+       background-color:#D8CFD0;
+    }
+    .links
+    {
+        display: flex;
+        gap:35px;
+        padding-right: 150px;
+        font-weight:800;
+        font: 1em sans-serif;
+        font-family:'Montserrat', sans-serif; ;
+       
+    }
+   .menu-links a:hover
+   {
+       color: brown;
+       text-decoration: none;
+   }
+   
