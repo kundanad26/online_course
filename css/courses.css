@@ -3,6 +3,7 @@
         margin:0; 
         
     } 
+
     .header-title
     {
         color:black ;
@@ -31,10 +32,6 @@
         padding: 0px 50px;
         margin-bottom: 55px;
     }
-    /* .nav
-    {
-        background-color:rgba(30, 30, 173, 0.878);;
-    } */
   
     .menu{
         display: flex;
